@@ -85,7 +85,7 @@ export function App() {
       </section>
 
       <section className="workspace">
-        <div className="section-heading"><div><p className="eyebrow">01 / Source material</p><h3>Protocol documents</h3></div><span className="file-count">{documents.length} {documents.length === 1 ? "file" : "files"}</span></div>
+        <div className="section-heading"><div><p className="eyebrow">01 / Source material</p><h3>Protocol documents for study</h3></div><span className="file-count">{documents.length} {documents.length === 1 ? "file" : "files"}</span></div>
         <div className="upload-row">
           <button className="upload-zone" type="button" onClick={() => inputRef.current?.click()} disabled={busy}>
             <span className="upload-icon"><Upload size={20} /></span><span><strong>Upload protocol files</strong><small>PDF, DOCX, DOC or TXT</small></span><Plus className="upload-plus" size={20} />
